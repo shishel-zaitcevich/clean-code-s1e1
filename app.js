@@ -21,7 +21,7 @@ var createNewTaskElement = function (taskString) {
   //label
   var label = document.createElement("label"); //label
   //input (text)
-  var editInput = document.createElement("input"); //text
+  var editInput = document.createElement("input"); //text"
   //button.edit
   var editButton = document.createElement("button"); //edit button
 
