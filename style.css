@@ -20,9 +20,11 @@
 }
 
 @media (max-width:768px) {
+
   .header {
     text-align: center;
   }
+
 }
 
 .main {
@@ -134,13 +136,13 @@ input#new-task {
   width: 226px
 }
 
-.btn.delete img {
+.btn.delete .delete-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.btn.delete img:hover {
+.btn.delete .delete-img:hover {
   transform: rotateZ(0);
 }
 
