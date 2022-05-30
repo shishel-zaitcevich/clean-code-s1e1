@@ -148,12 +148,13 @@ input#new-task {
 
 /* Completed */
 .list#completed-tasks .task-name {
-  text-decoration: line-through color: #888;
+  text-decoration: line-through;
+  color: #888;
 }
 
 /* Edit Task */
 .list .list__item .input__text {
-  display: none
+  display: none;
 }
 
 .list .list__item.edit-mode .input__text {
